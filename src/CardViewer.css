@@ -1,6 +1,9 @@
-table, td, th {
+.card {
+    width: 25%;
+    height: 100%;
+    margin-top: 10%;
     border: 1px solid black;
-    margin: auto;
+    box-shadow: 5px 10px #888888;
 }
 
 div {
@@ -13,16 +16,4 @@ div {
     margin: auto;
     display: flex;
     justify-content: center;
-}
-
-table {
-    border-collapse: collapse;
-}
-
-td, th {
-    padding: 10px;
-}
-
-input, button {
-    margin: 10px
 }
