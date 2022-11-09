@@ -41,7 +41,7 @@ class CardViewer extends React.Component {
             <div>
                 <h2>Card Viewer</h2>
                 <div class = 'wrapper'>
-                    <button onClick = {this.props.switchMode}>Go to Card Editor</button>
+                    <button class="btn btn-secondary" onClick = {this.props.switchMode}>Go to Card Editor</button>
                 </div>
                 <hr />
                 <p class = 'wrapper lead'>Progress: Card {this.state.index + 1} / {cards.length}</p>
@@ -51,8 +51,8 @@ class CardViewer extends React.Component {
                     </div>
                 </div>
                 <div class = 'wrapper'>
-                    <button onClick = {() => this.lastCard(cards)} type="button" class="btn btn-primary btn-lg">Previous Card</button>
-                    <button onClick = {() => this.nextCard(cards)} type="button" class="btn btn-primary btn-lg">Next Card</button>
+                    <button onClick = {() => this.lastCard(cards)} type="button" class="btn btn-outline-primary btn-lg">Previous Card</button>
+                    <button onClick = {() => this.nextCard(cards)} type="button" class="btn btn-outline-primary btn-lg">Next Card</button>
                 </div>
             </div>
         );

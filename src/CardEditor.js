@@ -31,7 +31,7 @@ class CardEditor extends React.Component {
                     <td>{card.front}</td>
                     <td>{card.back}</td>
                     <td>
-                        <button onClick = {() => this.deleteCard(index)}>Delete Card</button>
+                        <button class="btn btn-outline-secondary" onClick = {() => this.deleteCard(index)}>Delete Card</button>
                     </td>
                 </tr>
             );
@@ -41,7 +41,7 @@ class CardEditor extends React.Component {
             <div>
                 <h2>Card Editor</h2>
                 <div class = 'wrapper'>
-                    <button onClick = {this.props.switchMode}>Go to Card Viewer</button>
+                    <button class="btn btn-secondary" onClick = {this.props.switchMode}>Go to Card Viewer</button>
                 </div>
                 <hr />
                 <div class = 'wrapper'>
@@ -57,7 +57,7 @@ class CardEditor extends React.Component {
                         placeholder = 'Back of Card' 
                         value = {this.state.back} 
                     />
-                    <button onClick = {this.addCard}>Add Card</button>
+                    <button class="btn btn-primary" onClick = {this.addCard}>Add Card</button>
                 </div>
                 <br />
                 <table>
