@@ -1,4 +1,6 @@
-# Getting Started with Create React App
+# Datamatch Web Team Bootcamp: Flashcard App
+
+This project is a Flashcard App similar to Quizlet created for Datamatch's Web Team Bootcamp. React.js and Firebase are used to develop the Flashcard App. 
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
