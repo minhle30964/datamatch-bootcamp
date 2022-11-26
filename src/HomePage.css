@@ -1,0 +1,11 @@
+div {
+    padding: 10px;
+    margin: auto;
+}
+
+.wrapper {
+    padding: 10px;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+}

@@ -5,14 +5,15 @@ import reportWebVitals from './reportWebVitals';
 
 import { BrowserRouter } from "react-router-dom";
 
-import { Provider } from 'react-redux'
-import firebase from 'firebase/compat/app'
-import 'firebase/compat/auth'
-import { createStore, combineReducers } from 'redux'
+import { Provider } from 'react-redux';
+import firebase from 'firebase/compat/app';
+import 'firebase/compat/auth';
+import 'firebase/compat/database';
+import { createStore, combineReducers } from 'redux';
 import {
   ReactReduxFirebaseProvider,
   firebaseReducer
-} from 'react-redux-firebase'
+} from 'react-redux-firebase';
 
 
 const firebaseConfig = {
